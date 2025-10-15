@@ -1,7 +1,7 @@
 # Hi there, I'm Shaheen Syed! 👋
 
 🎓 **Final Year Student | Computer Science & Business Systems**  
-🌍 Aspiring Software Engineer @ MNC  
+🌍 Aspiring Software Engineer 
 🔗 [LinkedIn](https://www.linkedin.com/in/shaheensyed21)
 
 ---
