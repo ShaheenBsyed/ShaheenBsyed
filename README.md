@@ -1,40 +1,70 @@
-# Hi there, I'm Shaheen Syed! 👋
+<h1 align="center">Hey there, I'm Shaheen 👋</h1>
 
-🎓 **Final Year Student | Computer Science & Business Systems**  
-🌍 Aspiring Software Engineer 
-🔗 [LinkedIn](https://www.linkedin.com/in/shaheensyed21)
-
----
-
-## 🚀 About Me
-
-I'm a passionate final year Computer Science and Business Systems student, eager to launch my career as a Software Engineer in a global MNC. My journey bridges the worlds of software engineering and artificial intelligence, blending creative problem-solving with robust technical skills.
-
-- 🌟 Bridging software engineering with artificial intelligence  
-- 💡 Turning ideas into code — exploring AI, DevOps, and software engineering  
-- 🛠️ Currently mastering C++ and Python  
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50">
+</p>
 
 ---
 
-## 🛠️ Skills
-
-- **Languages:** C++, Python  
-- **Interests:** AI, DevOps, Software Engineering  
-
----
-
-## 💼 Let's Connect!
-
-- 🔗 [www.linkedin.com/in/shaheensyed21](https://www.linkedin.com/in/shaheensyed21)
+### 💻 About Me  
+🚀 Final Year B.Tech Student – Computer Science and Business Systems  
+🎯 Aspiring **Software Engineer | AI Engineer | DevOps Engineer**  
+💡 Passionate about building intelligent systems, automation, and creative AI projects  
+🌱 Currently exploring **FastAPI, Deep Learning, and Cloud DevOps**  
+🌍 Based in India 🇮🇳  
 
 ---
 
-## 🎵 Fun Facts
-
-- 📚 Always learning new technologies
-- 🎤 Enjoy watching standup comedies and poetry on YouTube
-- 🎧 Love listening to music and watching movies
+### ⚡ Tech Stack  
+💻 **Languages:** Python, C++, JavaScript  
+🧠 **AI/ML:** TensorFlow, scikit-learn, OpenAI API  
+⚙️ **Backend:** FastAPI, Flask, Node.js  
+🗄️ **Database:** MySQL, MongoDB  
+☁️ **DevOps Tools:** Docker, GitHub Actions, Linux, AWS (learning)  
+🎨 **Frontend:** HTML, CSS, Tailwind, React (basic)  
 
 ---
 
-*“Turning ideas into reality, one line of code at a time.”*
+### 🧩 Featured Projects  
+
+🔹 **College AI** – Smart campus assistant for students & faculty (major project)  
+🔹 **Life Map** – Visualize and relive key life events through AI-driven memory mapping  
+🔹 **AI Job Finder** – Finds internships/jobs by analyzing your resume  
+🔹 **Smart Email Classifier** – Categorizes your mails using NLP  
+🔹 **Poster & Flyer Generator** – AI-powered design assistant  
+
+🛠 Check out more on my [👉 Projects Repository](#)  
+
+---
+
+### 🏆 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ShaheenBSyed&show_icons=true&theme=radical" width="48%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShaheenBSyed&theme=radical" width="48%">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaheenBSyed&layout=compact&theme=radical" width="45%">
+</p>
+
+---
+
+### 🏅 Achievements & Highlights  
+🌟 Product Management Certified – GeeksforGeeks  
+🧠 Built 10+ AI/Automation projects solo  
+🎓 NPTEL Deep Learning & LLM Learner  
+🛫 Interested in Aviation Software & Smart Systems  
+
+---
+
+### 🌐 Connect with Me  
+<p align="center">
+  <a href="https://www.linkedin.com/in/shaheensyed21/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"></a>
+  <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"></a>
+  <a href="mailto: syedshaheen392@gmail.com@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"></a>
+</p>
+
+---
+
+<p align="center">✨ “Code. Create. Conquer.” ✨</p>
