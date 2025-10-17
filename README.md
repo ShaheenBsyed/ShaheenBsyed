@@ -8,9 +8,9 @@
 
 ### 💻 About Me  
 🚀 Final Year B.Tech Student – Computer Science and Business Systems  
-🎯 Aspiring **Software Engineer | AI Engineer | DevOps Engineer**  
-💡 Passionate about building intelligent systems, automation, and creative AI projects  
-🌱 Currently exploring **FastAPI, Deep Learning, and Cloud DevOps**  
+🎯 Aspiring **Software Engineer | AI Engineer**  
+💡 Passionate about building intelligent systems, automation, and creative AI projects   
+
 🌍 Based in India 🇮🇳  
 
 ---
