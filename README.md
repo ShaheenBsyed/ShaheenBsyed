@@ -1,40 +1,54 @@
-# Hi there, I'm Shaheen Syed! 👋
+# Custom Dataset AI Chatbot
 
-🎓 **Final Year Student | Computer Science & Business Systems**  
-🌍 Aspiring Software Engineer 
-🔗 [LinkedIn](https://www.linkedin.com/in/shaheensyed21)
+A minimal Retrieval-Augmented Generation (RAG) chatbot over your local `.txt` and `.md` files using FastAPI, FAISS, and sentence-transformers. It provides a streaming chat API and a tiny web UI.
 
----
+## Project layout
 
-## 🚀 About Me
+- `app/` — FastAPI app and services
+  - `app/main.py` — API server with `/chat`
+  - `app/config.py` — configuration via env vars or defaults
+  - `app/services/` — chunking, retriever, generator
+- `scripts/` — one-off utilities
+  - `scripts/ingest.py` — chunk files, build embeddings, write FAISS index
+- `data/` — put your `.txt` or `.md` documents here
+- `indexes/` — generated FAISS index and metadata
+- `web/` — simple static UI (`index.html`)
 
-I'm a passionate final year Computer Science and Business Systems student, eager to launch my career as a Software Engineer in a global MNC. My journey bridges the worlds of software engineering and artificial intelligence, blending creative problem-solving with robust technical skills.
+## Setup
 
-- 🌟 Bridging software engineering with artificial intelligence  
-- 💡 Turning ideas into code — exploring AI, DevOps, and software engineering  
-- 🛠️ Currently mastering C++ and Python  
+1. Python 3.10+
+2. Create a virtualenv and install requirements:
 
----
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-## 🛠️ Skills
+3. Optional: copy `.env.example` to `.env` and adjust paths/models.
 
-- **Languages:** C++, Python  
-- **Interests:** AI, DevOps, Software Engineering  
+## Prepare data and build index
 
----
+Place `.txt` and `.md` files under `data/`, then run:
 
-## 💼 Let's Connect!
+```bash
+python scripts/ingest.py
+```
 
-- 🔗 [www.linkedin.com/in/shaheensyed21](https://www.linkedin.com/in/shaheensyed21)
+This creates `indexes/chunks.index` and `indexes/chunks.meta.jsonl`.
 
----
+## Run the server
 
-## 🎵 Fun Facts
+The default generator model is large. For CPU-only environments it may be slow. You can switch to a smaller model, e.g. `HuggingFaceTB/SmolLM2-1.7B-Instruct` via `GEN_MODEL`.
 
-- 📚 Always learning new technologies
-- 🎤 Enjoy watching standup comedies and poetry on YouTube
-- 🎧 Love listening to music and watching movies
+```bash
+uvicorn app.main:app --reload --port 8000
+```
 
----
+Open `web/index.html` in a browser, or serve it via any static server. The UI POSTs to `/chat` on the same origin; if you host it separately, proxy `/chat` to the FastAPI server.
 
-*“Turning ideas into reality, one line of code at a time.”*
+## Notes
+
+- Retrieval uses cosine similarity via FAISS inner product with L2-normalized embeddings.
+- The prompt restricts answers to the retrieved contexts; if not found, it will say it doesn't know.
+- For production, consider a proper vector DB (Qdrant, Chroma), better chunking, and citation rendering.
