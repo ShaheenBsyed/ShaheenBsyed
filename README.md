@@ -8,7 +8,7 @@
 💻 About Me  
 🚀 Final Year B.Tech Student – Computer Science and Business Systems  
 🎯 Aspiring Product Manager with a strong Technical and Business background
-💡 Interested in building products that combine data, AI, and user-focused design  
+💡Interested in building products that combine data, AI, and user-focused design  
 
 🌍 Based in India 🇮🇳
 
