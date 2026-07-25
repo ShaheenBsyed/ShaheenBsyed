@@ -1,77 +1,54 @@
-<h1 align="center">Hey there, I'm Shaheen </h1>
+# Hi, I'm Shaheen 👋
 
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50">
-</p>
+I'm interested in building products at the intersection of **AI, data, and user experience**.
 
----
-💻 About Me  
-🚀 Final Year B.Tech Student – Computer Science and Business Systems  
-🎯 Aspiring Product Manager with a strong Technical and Business background
-💡Interested in building products that combine data, AI, and user-focused design  
+Most of what you'll find here are projects where I explore product thinking alongside technical implementation- from AI agents and analytics dashboards to product case studies and experiments.
 
-🌍 Based in India 🇮🇳
+I'm curious about why products succeed, how users make decisions, and how small improvements can create meaningful impact.
 
 ---
 
-## ⚡ Skills
+### Currently Exploring
+
+* AI-native products
+* Product discovery
+* Growth & experimentation
+* Product analytics
+* Human-centered design
+
+---
+
+### Tech & Tools
 
 **Product**
-- Product Requirement Documents (PRDs)
-- Feature Prioritization
-- Product Strategy
-- User Research
-- Roadmapping
-- Product Analytics
 
-**Technical**
-- Python
-- SQL
-- APIs
-- Data Analysis
+* Product Strategy
+* User Research
+* Product Analytics
+* PRDs
+* Roadmapping
+
+**Data**
+
+* Python
+* SQL
+* APIs
 
 **Tools**
-- Figma
-- Notion
-- Google Sheets
-- GitHub
+
+* Figma
+* Notion
+* GitHub
+* Google Sheets
 
 ---
 
-## 🧩 Featured Projects
+### Outside of Code
 
-🔹 **College AI – Smart Campus Assistant**  
-AI-powered assistant that helps students access academic information quickly.
-
-🔹 **AI Email Agent**  
-An AI-based email automation system that classifies incoming emails and performs actions like archiving, forwarding, or drafting replies.
-
-🔹 **Real-Time Stock Market App**  
-Tracks stock prices, sends alerts, and visualizes market trends using dashboards and APIs.
+When I'm not building projects, I'm usually reading product teardown articles, analysing apps I use every day, or experimenting with new AI tools.
 
 ---
 
-## 📊 What I'm Currently Learning
+### Connect
 
-- Product discovery & user research  
-- Product metrics and experimentation  
-- AI-powered product systems  
-- Building scalable product workflows
-
----
-
-## 🏆 Highlights
-
-🌟 Product Management Certified – GeeksforGeeks  
-🎓 NPTEL Deep Learning & LLM Learner  
-🚀 Built multiple AI and automation projects
-
----
-
-## 🌐 Connect with Me
-
-LinkedIn: https://www.linkedin.com/in/shaheensyed21
-
----
-
-✨ *Interested in building impactful products that solve real user problems.*
+LinkedIn → linkedin.com/in/shaheensyed21
